@@ -2,6 +2,8 @@
 
 This project simulates a crowdfunding platform for independent games. The site dynamically displays game data, filters content, and summarizes funding statistics using JavaScript and DOM manipulation.
 
+In this project, we built an interactive crowdfunding webpage for indie games using HTML, CSS, and JavaScript. Game data was loaded from a local JSON file, parsed, and dynamically rendered as game cards. We calculated and displayed summary statistics like total backers and total funds raised. Interactive filter buttons allowed users to view funded, unfunded, or all games. We also displayed a live summary paragraph describing funding progress and used JavaScript array methods (filter, reduce, sort) and DOM manipulation techniques to implement the logic. Finally, we highlighted the top two most funded games using destructuring and sorting.
+
 ---
 
 ## ✅ Project Goals
@@ -97,3 +99,4 @@ This project simulates a crowdfunding platform for independent games. The site d
 Video Walkthrough:
 https://drive.google.com/file/d/1i5mhVP2zxA8gd7SnLjMrC8K4N6dQ2lLU/view?usp=drive_link 
 https://share.icloud.com/photos/00fu1st8-cvqQy0O1XQaZ-LwQ
+https://imgur.com/a/tQXKO8q.gif
