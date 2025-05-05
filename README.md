@@ -1,53 +1,99 @@
-# WEB102 Prework - *Name of App Here*
+# Sea Monster Crowdfunding – CodePath WEB102 Prework
 
-Submitted by: **Your Name Here**
+This project simulates a crowdfunding platform for independent games. The site dynamically displays game data, filters content, and summarizes funding statistics using JavaScript and DOM manipulation.
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+---
 
-Time spent: **X** hours spent in total
+## ✅ Project Goals
 
-## Required Features
+- Practice JavaScript fundamentals like loops, functions, `reduce`, `filter`, and event listeners.
+- Manipulate the DOM to dynamically render content.
+- Implement UI interactivity with filtering and sorting.
 
-The following **required** functionality is completed:
+---
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+## 📋 Completed Challenges
 
-The following **optional** features are implemented:
+### 🔹 Challenge 3: Render All Games
+- Dynamically loads all games from `GAMES_JSON`.
+- Each game is displayed with its image, title, description, and number of backers.
+- Built using `document.createElement`, `innerHTML`, and `appendChild`.
 
-* [ ] List anything else that you can get done to improve the app functionality!
+### 🔹 Challenge 4: Summary Statistics
+- Shows:
+  - Total number of contributions (backers)
+  - Total amount raised
+  - Total number of games
+- Used `reduce()` to calculate values and `toLocaleString()` for formatting numbers with commas.
 
-## Video Walkthrough
+### 🔹 Challenge 5: Filter Buttons
+- Buttons to:
+  - Show all games
+  - Show only funded games
+  - Show only unfunded games
+- Used `filter()` to build new arrays based on funding status.
+- Used `addEventListener()` to hook up the buttons.
 
-Here's a walkthrough of implemented features:
+### 🔹 Challenge 6: Company Summary Paragraph
+- Added a summary `<p>` element inside the `#description-container`.
+- Describes:
+  - Total raised
+  - Number of games
+  - Number of unfunded games (using ternary operator for grammar)
+- Built with `createElement`, template literals, and DOM insertion.
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+### 🔹 Challenge 7: Top Funded Games
+- Sorted games by pledged amount using `.sort()`.
+- Used destructuring to extract the top two games:  
+  `const [topGame, secondGame, ...rest] = sortedGames`
+- Displayed top game names in `#first-game` and `#second-game` containers.
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+---
 
-## Notes
+## 🧪 Testing & Usage
 
-Describe any challenges encountered while building the app.
+1. Open `index.html` in your browser.
+2. Confirm:
+   - Game cards load correctly.
+   - Stats appear at the top.
+   - Filter buttons work as expected.
+   - Summary paragraph is displayed.
+   - Top 2 funded games are shown.
 
-## License
+---
 
-    Copyright [yyyy] [name of copyright owner]
+## 🗝 Secret Keys (Offline Unlocking Reference)
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+| Challenge | Secret Key              |
+|----------:|---------------------------------|
+| 3         | `6games-container.stats-card15` |
+| 4         | `11seafoamGAMES_JSON`           |
+| 5         | `19187800268BRAIN`              |
+| 6         | `74FLANNELclick`                |
+| 7         | `toLocaleString<div>1IVY`       |
 
-        http://www.apache.org/licenses/LICENSE-2.0
+---
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+## 📂 Files Involved
+
+- `index.html`: Contains the static layout and buttons.
+- `style.css`: Provides styling for the layout and cards.
+- `index.js`: Contains all logic and dynamic DOM manipulation.
+- `games.js`: Provides game data in JSON format.
+
+---
+
+## ✨ Bonus Ideas (Optional Improvements)
+
+- Add a search bar to find games by name.
+- Add a nav bar to jump between sections.
+- Improve the visual design with custom CSS themes.
+- Implement light/dark mode toggle.
+
+---
+
+### 
+
+Video Walkthrough:
+https://drive.google.com/file/d/1i5mhVP2zxA8gd7SnLjMrC8K4N6dQ2lLU/view?usp=drive_link 
+https://share.icloud.com/photos/00fu1st8-cvqQy0O1XQaZ-LwQ
