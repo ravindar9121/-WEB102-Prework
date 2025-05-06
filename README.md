@@ -97,6 +97,6 @@ In this project, we built an interactive crowdfunding webpage for indie games us
 ### 
 
 Video Walkthrough:
-https://drive.google.com/file/d/1i5mhVP2zxA8gd7SnLjMrC8K4N6dQ2lLU/view?usp=drive_link 
+https://drive.google.com/file/d/1i5mhVP2zxA8gd7SnLjMrC8K4N6dQ2lLU/view?usp=sharing
 Or
 https://imgur.com/a/tQXKO8q.gif
